@@ -36,8 +36,8 @@ export default {
   font-weight: 700;
   background: linear-gradient(
     90deg,
-    rgb(67, 145, 161) 28%,
-    rgb(9, 91, 121) 83%
+    rgba(118, 161, 67, 1) 28%,
+    rgba(9, 9, 121, 1) 83%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

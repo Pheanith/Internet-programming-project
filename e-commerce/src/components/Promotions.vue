@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Button from "./button.vue";
+import Button from "./Button.vue";
 export default {
   name: "Promotions",
   // props: {
@@ -46,7 +46,7 @@ export default {
   align-items: center;
 }
 .Cards-Box:hover {
-  box-shadow: 5px 5px 5px rgb(113, 212, 209);
+  box-shadow: 5px 5px 5px rgba(129, 177, 61, 1);
   transform: translate(5px, 5px);
   cursor: pointer;
 }

@@ -36,7 +36,7 @@ export default {
   border-radius: 10px;
 }
 .Item-Box:hover {
-  box-shadow: 5px 5px 5px rgb(113, 212, 209);
+  box-shadow: 5px 5px 5px rgba(129, 177, 61, 1);
   transform: translate(5px, 5px);
   cursor: pointer;
 }

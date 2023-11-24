@@ -97,7 +97,7 @@ export default {
 .Product-Box {
   width: 298px;
   height: 440px;
-  border: 1px solid #BCE3C9;
+  border: 1px solid rgba(188, 227, 201, 1);
   border-radius: 10px;
   font-family: "Quicksand", sans-serif;
 }
