@@ -37,8 +37,6 @@
       :Subvalue="i.Subvalue"
       :Bgbtn="i.Bgbtn"
       :Borderbtn="i.Borderbtn" />
-    <!-- :Text="i.Text" -->
-    <!-- :Arrow="i.Arrow"  -->
   </div>
 </template>
 
@@ -57,12 +55,13 @@ export default {
   name: "SuperProject",
   components: {
     Categories,
-    Promotions,
-    Button,
     Menu,
+    Promotions,
     Product,
     ButtonAdd,
     ButtonPlus,
+    Button,
+
   },
   data() {
     return {

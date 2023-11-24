@@ -5,24 +5,24 @@
 <template>
   <div class="box">
     <div class="wrapper">
-    <Category v-for="i in Category" :key="i.Category"
+    <Categories v-for="i in Category" :key="i.Category"
    :bgcolor="i.bgcolor" 
             :image="i.image" 
             :Product="i.Product" 
             :quantity="i.quantity">
 
-  </Category>
+  </Categories>
   </div>
   <br>
 
   <div class="promotion-container">
-    <Promotion v-for=" i in Promotion" :key="i.Promotion"
+    <Promotions v-for=" i in Promotion" :key="i.Promotion"
     :colorBackground="i.colorBackground"
     :description="i.description"
     :productImages="i.productImages"
     :btnbgcolor="i.btnbgcolor"
     :btntext="i.btntext">
-    </Promotion>
+    </Promotions>
   </div>
   </div>
   
